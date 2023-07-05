@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <title>Color Flipper - JS Project</title>
+</head>
+<body onload="loadCookie()">
+    <div id="wrap" style="background-color: #707070;">
+        <div id="color_code" onclick="copyDivToClipboard()"></div>
+        <button id="color_button" onclick="randomHexCode()">Random Color</button>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

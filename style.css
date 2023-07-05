@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#color_code{
+    display: flex;
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    box-shadow: 9px 5px 33px -1px rgb(0, 0, 0);
+}
+#color_code_copy{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    box-shadow: 9px 5px 33px -1px rgb(0, 0, 0);
+}
+#color_button{
+    margin-top: 80px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+#color_button:active{
+    background-color: rgb(0, 0, 0);
+}
